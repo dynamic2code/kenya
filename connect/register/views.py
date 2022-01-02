@@ -1,8 +1,16 @@
+from django.http import HttpResponse
 
-  #  def register(self):
+def register(self):
         #accepts the details of the user and stores in the db
         #     
-   #     pass
+     pass
+
+def verification(request):
+     #if correct take to the cite
+     pass
+
+
+
 
 
     #def log_in(person_name,person_password):
@@ -19,4 +27,4 @@
      #   pass 
 
             
-# Create your views here.
+# Create your views here
