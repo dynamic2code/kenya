@@ -1,4 +1,8 @@
 from django.http import HttpResponse
+from django.shortcuts import render
+
+def main(request):
+     return render (request,main.html)
 
 def register(self):
         #accepts the details of the user and stores in the db
