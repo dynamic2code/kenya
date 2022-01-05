@@ -1,8 +1,12 @@
 from django.http import HttpResponse
 from django.shortcuts import render
 
-def register(request):
-     return render (request,register.html)
+def log_in(request):
+     return render (request,log_in.html)
+
+def sign_up(request):
+     return render (request,sign_up.html)
+
 
 def register(self):
         #accepts the details of the user and stores in the db
