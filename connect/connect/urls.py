@@ -20,7 +20,7 @@ from calculator import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('/main/$',views.main),
-    path('/calculator/$', views.calculator)
+    #path('register/', views.register),
+    path('calculator/', views.calculator)
     
 ]
