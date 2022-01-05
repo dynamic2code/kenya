@@ -2,10 +2,10 @@ from django.http import HttpResponse
 from django.shortcuts import render
 
 def log_in(request):
-     return render (request,log_in.html)
+     return render (request,'register/log_in.html')
 
 def sign_up(request):
-     return render (request,sign_up.html)
+     return render (request,'register/sign_up.html')
 
 
 def register(self):

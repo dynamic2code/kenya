@@ -3,7 +3,7 @@ from django.http import HttpResponse
 
 
 def calculator(request):
-    return render (request,calculator.html)
+    return render (request,'calculator/calculator.html')
 
 
 
