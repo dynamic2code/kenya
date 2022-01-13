@@ -1,11 +1,13 @@
+from django.forms.forms import Form
 from django.http import HttpResponse
 from django.shortcuts import render
+from connect.forms import PersonForm
 
 def log_in(request):
      return render (request,'register/log_in.html')
 
 def sign_up(request):
-     return render (request,'register/sign_up.html')
+     return render (request,'register/sign_up.html',{})
 
 
 def register(self):
